@@ -5,11 +5,11 @@ module.exports = function towelSort(matrix=[]) {
   mas = [];
   for (let i = 0; i < matrix.length; i++)
     if ((i + 1) % 2 == 0) {
-      mas.push(matrix[i].reverse());
+      mas.push(...mass[i].reverse());
     }
     else {
-      mas.push(matrix[i]);
+      mas.push(...mass[i]);
     }
-  return mas.flat();
+  return mas;
 };
 

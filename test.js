@@ -15,7 +15,7 @@ describe('.towelSort, should perfrom \'towelSort\'', () => {
   it('should do towelSort', () => {
     const matrix = [
       [1, 2],
-      [3, 4],
+      [3, 4]
     ];
 
     assert.deepEqual(towelSort(matrix), [ 1, 2, 4, 3 ]);
@@ -25,19 +25,14 @@ describe('.towelSort, should perfrom \'towelSort\'', () => {
     const matrix = [
       [1, 2, 3],
       [4, 5, 6],
-      [7, 8, 9],
+      [7, 8, 9]
     ];
 
     assert.deepEqual(towelSort(matrix), [ 1, 2, 3, 6, 5, 4, 7, 8, 9 ]);
   });
 
   it('should do towelSort', () => {
-    const matrix = [
-        [1, 2, 3, 4],
-        [5, 6, 7, 8],
-        [9, 10, 11, 12],
-        [13, 14, 15, 16],
-    ];
+    const matrix = [[1, 2, 3, 4],[5, 6, 7, 8],[9, 10, 11, 12], [13, 14, 15, 16]];
 
     assert.deepEqual(towelSort(matrix), [ 1, 2, 3, 4, 8, 7, 6, 5, 9, 10, 11, 12, 16, 15, 14, 13 ]);
   });
@@ -49,7 +44,7 @@ describe('.towelSort, should perfrom \'towelSort\'', () => {
         [9, 10, 11, 12],
     ];
 
-    assert.deepEqual(towelSort(matrix), [ 1, 2, 3, 4, 8, 7, 6, 5, 9, 10, 11, 12,]);
+    assert.deepEqual(towelSort(matrix), [ 1, 2, 3, 4, 8, 7, 6, 5, 9, 10, 11, 12]);
   });
 
   it('should do towelSort', () => {
@@ -58,7 +53,7 @@ describe('.towelSort, should perfrom \'towelSort\'', () => {
       [4, 5, 6],
     ];
 
-    assert.deepEqual(towelSort(matrix), [ 1, 2, 3, 6, 5, 4, ]);
+    assert.deepEqual(towelSort(matrix), [ 1, 2, 3, 6, 5, 4 ]);
   });
 
   it('should do towelSort', () => {
